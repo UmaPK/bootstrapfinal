@@ -1,0 +1,170 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features
+{
+  text-align: center;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body
+{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+.well .page-header
+{
+  margin-top: 0;
+}
+.well .page-header h1
+{
+  margin-top: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#si
+{
+  width: 200px;
+}
+.navbar-brand
+{
+  padding: 0px 0px 15px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   /* --------------------------------------
+      Carousel
+      -------------------------------------- */
+
+   #myCarousel {
+
+   	margin-top:100px;
+   }
+
+   .carousel-caption
+   {
+     z-index:999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+     color: black;
+   	font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+    font-size: 32px;
+   }
+
+   #myCarousel .item { height: 400px; }
+
+   #slide1 {
+     /*opacity:0.7;*/
+     width: 100%;
+     height: 100%;
+   	background: url('../../images/a2.jpg') top center no-repeat;
+   }
+   #slide2 {
+     /*opacity:0.7;*/
+     width: 100%;
+     height: 100%;
+   	background: url('../../images/a0.jpg') top center no-repeat;
+   }
+   #slide3 {
+     /*opacity:0.7;*/
+     width: 100%;
+     height: 100%;
+   	background: url('../../images/a1.jpg') top center no-repeat;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert
+{
+  margin-top:20px;
+  color:black;
+  background-color: white;
+  border-color: white;
+  display: none;
+}
+.well{
+  margin: 20px 0px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/a2.jpg') top center no-repeat;
+	}
+  #slide2 {
+    background: url('../../images/a0.jpg') top center no-repeat;
+  }
+  #slide3 {
+  		background: url('../../images/a1.jpg') top center no-repeat;
+  	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px)
+ {
+  #myCarousel .item { height:500px; }
+
+	#slide1 {
+		background: url('../../images/a2.jpg') top center no-repeat;
+	}
+  #slide2 {
+    background: url('../../images/a0.jpg') top center no-repeat;
+  }
+  #slide3 {
+      background: url('../../images/a1.jpg') top center no-repeat;
+    }
+    #pslide1 {
+  		background: url('../../images/12.jpg') top center no-repeat;
+  	}
+    #pslide2 {
+      background: url('../../images/place3.jpg') top center no-repeat;
+    }
+    #pslide3 {
+        background: url('../../images/place2.jpg') top center no-repeat;
+      }
+      #sslide1 {
+        background: url('../../images/sport1.jpg') top center no-repeat;
+      }
+      #sslide2 {
+        background: url('../../images/sport2.jpg') top center no-repeat;
+      }
+      #sslide3 {
+          background: url('../../images/s2.jpg') top center no-repeat;
+        }
+
+}
