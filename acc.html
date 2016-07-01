@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
-
 		<!-- Website Title & Description for Search Engine purposes -->
 		<title></title>
 		<meta name="description" content="">
-
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="style4.css"/>
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
-
 	</head>
 	<body>
-				<!-- <img id="i1" src="C:/Users/trainee/Desktop/h4.jpg" /> -->
-	<div class="container" id="main" >
-		<div class="navbar navbar-fixed-top">
-		<div class="container">
-			<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-				<a class="navbar-brand" href="index.html"><img id="logo" src="images/logo2.jpg" alt="logoimg" /></a>
-				<div class="nav-collapse collapse navbar-responsive-collapse"  >
+		<div class="container" id="main" >
+			<div class="navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img id="logo" src="images/logofinal.jpg" alt="logoimg" /></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse"  >
 						<ul class="nav navbar-nav pull-right">
 								<li class="active">
 									<a href="index.html">Home</a>
@@ -56,132 +49,110 @@
 									<a href="sport.html">Sports</a>
 								</li>
 							</ul>
-								<!-- <form class="navbar-form pull-left">
-									<input type="text" class="form-control" placeholder="Serach this college website" id="si">
-									<button type="submit" class="btn btn-default">
-											<span class="glyphicon glyphicon-search">
-											</span>
-									</button>
-								</form> -->
-								 <ul class="nav navbar-nav pull-right">
-									 <li class="dropdown">
-										 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-											 <span class="glyphicon glyphicon-user"></span>
-											 My account<strong class="caret"></strong>
-										 </a>
-												<ul class="dropdown-menu">
-													<li>
-														<a href="acc.html"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
-													</li>
-													<li>
-															<a href="acc.html"><span class="glyphicon glyphicon-refresh"></span>SignUp</a>
-													</li>
-													<li>
-															<a href="acc.html"><span class="glyphicon glyphicon-briefcase"></span>Signin</a>
-													</li>
-													<li class="divider"></li>
-													<li>
-																<a href="index.html"><span class="glyphicon glyphicon-off"></span>Signout</a>
-														</li>
-												</ul>
-									 </li>
-								 </ul> <!--END NAV pull right-->
+						 <ul class="nav navbar-nav pull-right">
+							 <li class="dropdown">
+								 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									 <span class="glyphicon glyphicon-user"></span>
+									 My account<strong class="caret"></strong>
+								 </a>
+								<ul class="dropdown-menu">
+										<li>
+												<a href="acc.html"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+										</li>
+										<li>
+												<a href="acc.html"><span class="glyphicon glyphicon-refresh"></span>SignUp</a>
+										</li>
+										<li>
+												<a href="acc.html"><span class="glyphicon glyphicon-briefcase"></span>Signin</a>
+										</li>
+										<li class="divider"></li>
+											<li>
+													<a href="index.html"><span class="glyphicon glyphicon-off"></span>Signout</a>
+											</li>
+										</ul>
+						   	 </li>
+							 </ul> <!--END NAV pull right-->
 				</div><!--end navbaar collapse-->
 		</div><!--  End of container-->
 	</div> <!-- end nav bar -->
-
-<p><br><br><br></p>
+	<p><br><br><br></p>
 	<div class="row" id="bigcallout">
 		<div class="panel ">
 			<h3 class="text-center">Sign Up Form</h3><hr>
 			<div class="signup"><form class="nobottommargin" id="form1" name="template-contactform" novalidate="novalidate">
-<div class="col-3">
-				<div class="col_half">
-					<label for="template-contactform-name">Name <small>*</small></label>
-					<input type="text" id="name" required="" name="Name" value="" class="sm-form-control required" aria-required="true">
-				</div>
-				<p><br></p>
-
-				<div class="col_half col_last">
-					<label for="template-contactform-email">Email <small>*</small></label>
-					<input type="email" id="email" required="" name="Email" value="" class="required email sm-form-control" aria-required="true">
-				</div>
-</div>
-				<div class="clear"></div>
-
-
-				<div class="col_half">
-					<label for="template-contactform-name">Phone Number <small>*</small></label>
-					<input type="text" id="phone" required="" name="PhoneNo" value="" class="sm-form-control required" aria-required="true">
-				</div>
-				<p><br></p>
-
-				<div class="col_half col_last">
-					<label for="template-contactform-pname">Course Name<small>        *&nbsp;&nbsp;&nbsp;</small></label>
-					<input type="text" id="program" required="" name="ProgramInterested" value="" class="required  sm-form-control" aria-required="true">
-				</div>
-				<p><br></p>
-
-				<!-- <div class="clear"></div> -->
-
-				<div class="col_full">
-					<label for="template-contactform-message">Message <small>*</small></label>
-					<textarea class="required sm-form-control" id="message" name="Message" rows="2" required="" cols="30" aria-required="true"></textarea>
-				</div>
-
-				<div class="col_one_third">
-						 <!-- <label for="chk1Brouhcer"><input type="checkbox" name="chk1" id="chk1Brouhcer">Your Qualification</label> -->
-				<!-- </div> -->
-				<!-- <div id="cblist" class="col_third col_last hide yes_b"> -->
-					<label for="template-contactform-name">Your Qualification <small>*</small></label><br>
-					<div class="check">
-					<label for="chk12"><input type="checkbox" name="chk12" id="chk12" value="10th"> 10th</label><br>
-					<label for="chk13"><input type="checkbox" name="chk12" id="chk13" value="12th"> 12th</label><br>
-					<label for="chk13"><input type="checkbox" name="chk12" id="chk13" value="12th">Diplamo</label><br>
-					<label for="chk14"><input type="checkbox" name="chk12" id="chk14" value="Graduation">Graduation</label></div>
-				</div>
-				<div class="clear"></div>
-				<div class="col_full hide yes_b">
-					<label>Postal Address<small>*</small></label>
-					<textarea class="required sm-form-control" id="address" name="address" rows="2" required="" cols="30" aria-required="true"></textarea>
-				</div>
-				<div class="clear"></div>
-				<div class="col_full">
-					<button class="button btn-default" type="button" id="contactform-submit" name="template-contactform-submit" value="submit">Submit</button>
-				</div>
-
-			</form></div>
-			</div><!-- end panel -->
-			<div class="panel ">
-				<h3 class="text-center">Sign In Form</h3><hr>
-				<div class="signup"><form class="nobottommargin" id="form1" name="template-contactform" novalidate="novalidate">
-	<div class="col-3">
+				<div class="col-3">
 					<div class="col_half">
 						<label for="template-contactform-name">Name <small>*</small></label>
 						<input type="text" id="name" required="" name="Name" value="" class="sm-form-control required" aria-required="true">
 					</div>
 					<p><br></p>
+					<div class="col_half col_last">
+						<label for="template-contactform-email">Email <small>*</small></label>
+						<input type="email" id="email" required="" name="Email" value="" class="required email sm-form-control" aria-required="true">
 					</div>
-					<div class="clear"></div>
-
-
+				</div>
+				<div class="clear"></div>
 					<div class="col_half">
-						<label for="template-contactform-name">Password <small>*</small></label>
+						<label for="template-contactform-name">Phone Number <small>*</small></label>
 						<input type="text" id="phone" required="" name="PhoneNo" value="" class="sm-form-control required" aria-required="true">
 					</div>
 					<p><br></p>
-						<div class="clear"></div>
-							<div class="clear"></div>
-					<div class="col_full">
-						<button class="button btn-default" type="button" id="contactform-submit" name="template-contactform-submit" value="submit">Login</button>
+					<div class="col_half col_last">
+						<label for="template-contactform-pname">Course Name<small>        *&nbsp;&nbsp;&nbsp;</small></label>
+						<input type="text" id="program" required="" name="ProgramInterested" value="" class="required  sm-form-control" aria-required="true">
 					</div>
-
-				</form></div>
+					<p><br></p>
+					<div class="col_full">
+						<label for="template-contactform-message">Message <small>*</small></label>
+						<textarea class="required sm-form-control" id="message" name="Message" rows="2" required="" cols="30" aria-required="true"></textarea>
+					</div>
+					<div class="col_one_third">
+						 <label for="template-contactform-name">Your Qualification <small>*</small></label><br>
+						 <div class="check">
+							 <label for="chk12"><input type="checkbox" name="chk12" id="chk12" value="10th"> 10th</label><br>
+							 <label for="chk13"><input type="checkbox" name="chk12" id="chk13" value="12th"> 12th</label><br>
+							 <label for="chk13"><input type="checkbox" name="chk12" id="chk13" value="12th">Diplamo</label><br>
+							 <label for="chk14"><input type="checkbox" name="chk12" id="chk14" value="Graduation">Graduation</label></div>
+						 </div>
+						 <div class="clear"></div>
+						 <div class="col_full hide yes_b">
+							 <label>Postal Address<small>*</small></label>
+							 <textarea class="required sm-form-control" id="address" name="address" rows="2" required="" cols="30" aria-required="true"></textarea>
+						 </div>
+						 <div class="clear"></div>
+						 <div class="col_full">
+							<button class="button btn-default" type="button" id="contactform-submit" name="template-contactform-submit" value="submit">Submit</button>
+						</div>
+					</form>
+				</div>
 				</div><!-- end panel -->
+			<div class="panel ">
+				<h3 class="text-center">Sign In Form</h3><hr>
+				<div class="signup"><form class="nobottommargin" id="form1" name="template-contactform" novalidate="novalidate">
+					<div class="col-3">
+						<div class="col_half">
+							<label for="template-contactform-name">Name <small>*</small></label>
+							<input type="text" id="name" required="" name="Name" value="" class="sm-form-control required" aria-required="true">
+						</div>
+						<p><br></p>
+					</div>
+					<div class="clear"></div>
+						<div class="col_half">
+							<label for="template-contactform-name">Password <small>*</small></label>
+							<input type="text" id="phone" required="" name="PhoneNo" value="" class="sm-form-control required" aria-required="true">
+						</div>
+						<p><br></p>
+							<div class="clear"></div>
+							<div class="clear"></div>
+							<div class="col_full">
+								<button class="button btn-default" type="button" id="contactform-submit" name="template-contactform-submit" value="submit">Login</button>
+							</div>
+					</form>
+				</div>
+			</div><!-- end panel -->
 		</div><!--end  featuresheading -->
    	<div class="row" id="morecourse">
 		</div><!--end  morecourse-->
-
 	  </div><!-- end container -->
 		<footer>
 			<div class="container">
@@ -189,7 +160,6 @@
 					<div class="col-sm-2">
 					<h6>Copyright &copy; 2013johnson</h6>
 					</div><!-- end col-sm-2 -->
-
 					<div class="col-sm-4">
 						<h6>Contact</h6>
 						<p><strong>Postal Address:</strong>12345 College Blvd,Overland Park,KS 66210,US
@@ -199,7 +169,6 @@
 						<p><strong>Fax :</strong>9944259843
 						</p>
 					</div><!-- end col-sm-4 -->
-
 					<div class="col-sm-2">
 						<h6>Navigation</h6>
 						<ul class="unstyled">
@@ -214,16 +183,12 @@
 								<a href="https://www.facebook.com/login.php?login_attempt=1&lwv=110"><img src="images/fb.png"/></a>
 								<a href="https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default"><img src="images/g.png"/></a>
 						</div><!-- end col-sm-2 -->
-
-
 					<div class="col-sm-2">
 						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Uma</h6>
 					</div><!-- end col-sm-2 -->
 				</div><!-- end row -->
 			</div><!-- end container -->
-
 		</footer>
-
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 	<!-- First try for the online version of jQuery-->
 <script src="http://code.jquery.com/jquery.js"></script>

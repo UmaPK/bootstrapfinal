@@ -1,50 +1,8 @@
 .hero{
   background-color:#000;
 }
-/*.navbar {
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding-top:0px;
-  background-color:none;
-}
-.navbar ul
+#slide1,#slide2,#slide3,#pslide1,#pslide2,#pslide3,#sslide1,#sslide2,#sslide3
 {
-  text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-}
-.navbar ul li
-{
-  display: inline-block;
-}
-.navbar ul li a
-{
-  padding: 20px;
-  font-family: "Roboto";
-  /*color: #CCC;*/
-  /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
-  font-size: 20px;
-  text-decoration: none;
-  display: block;
-}
-.navbar ul li a:hover
-{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.7);
-}
-.navbar
-{
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-}
-.navbar ul li a:hover
-{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.7);
-}*/
-#slide1,#slide2,#slide3,#pslide1,#pslide2,#pslide3,#sslide1,#sslide2,#sslide3{
   opacity: 0.7;
 }
 .sp1
@@ -57,35 +15,39 @@ div ul li a hover
 {
   color: white;
 }
-/*.sp2
-{
-margin-top: -300px;
-}
-.sp3
-{
-margin-left:63px;
-padding-left: 90px;
-}
-.sp4{margin-left: -500px;
-    margin-top: -400px;}*/
 .panel-heading
 {
   color: white;
   background-color: #333;
 }
 #logo
-{margin-left: -95px;}
+{
+  margin-left: -95px;
+}
 .navbar
 {
-background-color:#333;
+  background-color:#333;
 }
-.check{
+#tab3  li,#tab4 li
+{
+  text-align: justify;
+}
+.mypan
+{
+
+}
+.check
+{
   margin-left: 80px;
 }
-footer {color: white;}
-footer{
-background-color: #333;
-margin-top: 20px;
+footer
+{
+  color: white;
+}
+footer
+{
+  background-color: #333;
+  margin-top: 20px;
 }
 .head
 {
@@ -93,7 +55,7 @@ margin-top: 20px;
 }
 .navbar-brand
 {
-padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 p
 {
@@ -101,62 +63,15 @@ p
 }
 #i1
 {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .carousel-inner
 {
   background-color: #000;
-  
 }
 .tay
 {
   background-color: #CCC;
   padding-left: 20px;
 }
-/*.text-center
-{
-  text-align: center;
-}*/
-/*.navbar{
-  position: absolute;
-  top:-70px;
-  left:0px;
-}*/
-/*.myimg
-{
-position: absolute;
-top:0px;
-left:0px;
-}
-.my
-{
-position:absolute;
-top 250px;
-left=250px;
-}
-p
-{
-font-family:sans-serif;
-font-size:20;
-font-style: oblique;
-font-weight: bolder;
-text-align: center;
-
-text-shadow: 2px 2px 5px white;
-}
-#1
-{
-text-align: center;
-}
-a
-{
-color:white;
-text-decoration:none;
-}
-.my
-{
-position: absolute;
-top: 570;
-left:250;
-}*/
